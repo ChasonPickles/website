@@ -1,0 +1,76 @@
+* {
+    outline: 1px solid red !important; 
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.nav-bar{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family:fantasy;
+    background-color: #000040;
+    position: fixed;
+    z-index: 3;
+}
+
+.nav-bar-item {
+    border:0px;
+    margin: 0px;
+    max-width: 20%;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.first-row-me{
+    height: 580px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: block;
+    background-image: url(Bright-Space-Lights-HD-Wallpaper.jpg);
+    background-position: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+div.image-me img{
+    height: 220px;
+    width:  220px;
+    border-radius: 50%;
+}
+
+.image-me {
+    border-radius: 70%;
+    margin: 0;
+    position: absolute;
+    top: 23%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 220px;
+    width: 220px;
+}
+
+.first-row-me .image-me h2{
+    margin-left: 1em;
+    color:whitesmoke;
+    font-size: large;
+}
+
+.personal-bio{
+    height: 10em;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
